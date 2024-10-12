@@ -1,107 +1,122 @@
 [
   {
-    "color": "Red",
+    "color": "#ff4c4c",
     "name": "Item 1",
     "description": "Description 1",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User A"
   },
   {
-    "color": "Green",
+    "color": "#4caf50",
     "name": "Item 2",
     "description": "Description 2",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User B"
   },
   {
-    "color": "Blue",
+    "color": "#2196f3",
     "name": "Item 3",
     "description": "Description 3",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User C"
   },
   {
-    "color": "Yellow",
+    "color": "#ffeb3b",
     "name": "Item 4",
     "description": "Description 4",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User D"
   },
   {
-    "color": "Purple",
+    "color": "#9c27b0",
     "name": "Item 5",
     "description": "Description 5",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User E"
   },
   {
-    "color": "Orange",
+    "color": "#ff9800",
     "name": "Item 6",
     "description": "Description 6",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User F"
   },
   {
-    "color": "Pink",
+    "color": "#e91e63",
     "name": "Item 7",
     "description": "Description 7",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User G"
   },
   {
-    "color": "Cyan",
+    "color": "#00bcd4",
     "name": "Item 8",
     "description": "Description 8",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User H"
   },
   {
-    "color": "Magenta",
+    "color": "#ff4081",
     "name": "Item 9",
     "description": "Description 9",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User I"
   },
   {
-    "color": "Lime",
+    "color": "#cddc39",
     "name": "Item 10",
     "description": "Description 10",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User J"
   },
   {
-    "color": "Brown",
+    "color": "#795548",
     "name": "Item 11",
     "description": "Description 11",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User K"
   },
   {
-    "color": "Teal",
+    "color": "#009688",
     "name": "Item 12",
     "description": "Description 12",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User L"
   },
   {
-    "color": "Navy",
+    "color": "#3f51b5",
     "name": "Item 13",
     "description": "Description 13",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User M"
   },
   {
-    "color": "Olive",
+    "color": "#8bc34a",
     "name": "Item 14",
     "description": "Description 14",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User N"
   },
   {
-    "color": "Maroon",
+    "color": "#f44336",
     "name": "Item 15",
     "description": "Description 15",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01"
+    "updatedDate": "2023-10-01",
+    "createdBy": "User O"
   }
 ]

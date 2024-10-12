@@ -1,0 +1,12 @@
+.square {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

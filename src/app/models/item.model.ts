@@ -4,4 +4,5 @@ export interface Item {
   description: string;
   createdDate: string;
   updatedDate: string;
+  createdBy: string;
 }
