@@ -1,0 +1,107 @@
+[
+  {
+    "color": "Red",
+    "name": "Item 1",
+    "description": "Description 1",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Green",
+    "name": "Item 2",
+    "description": "Description 2",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Blue",
+    "name": "Item 3",
+    "description": "Description 3",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Yellow",
+    "name": "Item 4",
+    "description": "Description 4",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Purple",
+    "name": "Item 5",
+    "description": "Description 5",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Orange",
+    "name": "Item 6",
+    "description": "Description 6",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Pink",
+    "name": "Item 7",
+    "description": "Description 7",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Cyan",
+    "name": "Item 8",
+    "description": "Description 8",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Magenta",
+    "name": "Item 9",
+    "description": "Description 9",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Lime",
+    "name": "Item 10",
+    "description": "Description 10",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Brown",
+    "name": "Item 11",
+    "description": "Description 11",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Teal",
+    "name": "Item 12",
+    "description": "Description 12",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Navy",
+    "name": "Item 13",
+    "description": "Description 13",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Olive",
+    "name": "Item 14",
+    "description": "Description 14",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  },
+  {
+    "color": "Maroon",
+    "name": "Item 15",
+    "description": "Description 15",
+    "createdDate": "2023-10-01",
+    "updatedDate": "2023-10-01"
+  }
+]
