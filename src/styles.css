@@ -10,3 +10,9 @@ html {
   background: #f2f6f9 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+.label {
+  color: #0e4f6e;
+  font-weight: bold;
+  padding-right: 35px;
+}
+@layer reset, primeng;

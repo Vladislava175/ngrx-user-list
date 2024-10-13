@@ -1,0 +1,20 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  flex: 1;
+  text-align: left;
+  color: #0e4f6e;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons img {
+  padding: 8px 16px;
+}

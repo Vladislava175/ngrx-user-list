@@ -13,4 +13,12 @@ export class ItemService {
     console.log('getItems');
     return this.http.get<Item[]>(this.apiUrl);
   }
+
+  addItem(item: Item): Observable<Item> {
+    return this.http.post<Item>(this.apiUrl, item);
+  }
+
+  editItem(item: Item): Observable<Item> {
+    return this.http.patch<Item>(this.apiUrl, item);
+  }
 }

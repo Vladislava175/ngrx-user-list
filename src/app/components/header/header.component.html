@@ -1,1 +1,10 @@
-<p>header works!</p>
+
+<div class="header-container">
+    <h1 class="title">Management Tool</h1>
+    <div class="buttons">
+        <!-- TODO set dynamic with icon, action -->
+        <img src="../../../assets/tiles-mode.svg" />
+        <img src="../../../assets/list-mode.svg" />
+        <img (click)="sidebarVisibleChange.emit(true)" src="../../../assets/create-new.svg" />
+    </div>
+  </div>

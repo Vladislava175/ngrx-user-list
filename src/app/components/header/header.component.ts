@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
-
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { MenubarModule } from 'primeng/menubar';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [MenubarModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-
+  @Input() sidebarVisible: boolean = false;
+  @Output() sidebarVisibleChange = new EventEmitter<boolean>();
 }

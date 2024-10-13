@@ -1,1 +1,51 @@
-<p>item-form works!</p>
+<h3>{{ label }}</h3>
+
+<!-- <div *ngIf="!!formGroup">
+  <form [formGroup]="formGroup">
+    <div class="flex flex-column gap-2">
+      <div>
+        <label for="username">Name</label>
+        <input pInputText formControlName="name" />
+      </div>
+      <div class="card flex justify-content-center">
+        <label><span>Color</span></label>
+        <p-colorPicker formControlName="color" [inline]="true" format="rgb" />
+      </div>
+    </div>
+    <div class="flex flex-column gap-2">
+      <label for="username">Tag Description</label>
+      <textarea
+        rows="5"
+        cols="30"
+        pInputTextarea
+        formControlName="description"
+      ></textarea>
+    </div>
+  </form>
+</div> -->
+<div class="form-container" [formGroup]="formGroup">
+  <div class="form-row">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" formControlName="name" id="name" name="name" />
+    </div>
+    <div class="form-group">
+      <label for="color">Color</label>
+      <p-colorPicker formControlName="color" />
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="description">Tag Description</label>
+    <textarea
+      id="description"
+      formControlName="description"
+      name="description"
+    ></textarea>
+  </div>
+
+  <div class="form-buttons">
+    <button class="cancel-button" (click)="cancel()">CANCEL</button>
+    <button class="confirm-button" (click)="save()">SAVE</button>
+  </div>
+</div>

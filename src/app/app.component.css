@@ -1,0 +1,4 @@
+::ng-deep .p-sidebar-right {
+    width: 50rem !important;
+    background-color: #F2F6F9 !important;
+}

@@ -1,122 +1,47 @@
 [
   {
+    "id": 1,
     "color": "#ff4c4c",
     "name": "Item 1",
     "description": "Description 1",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
+    "updatedDate": "",
     "createdBy": "User A"
   },
   {
+    "id": 2,
     "color": "#4caf50",
     "name": "Item 2",
     "description": "Description 2",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
+    "updatedDate": "",
     "createdBy": "User B"
   },
   {
+    "id": 3,
     "color": "#2196f3",
     "name": "Item 3",
     "description": "Description 3",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
+    "updatedDate": "",
     "createdBy": "User C"
   },
   {
+    "id": 4,
     "color": "#ffeb3b",
     "name": "Item 4",
     "description": "Description 4",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
+    "updatedDate": "",
     "createdBy": "User D"
   },
   {
+    "id": 5,
     "color": "#9c27b0",
     "name": "Item 5",
     "description": "Description 5",
     "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
+    "updatedDate": "",
     "createdBy": "User E"
-  },
-  {
-    "color": "#ff9800",
-    "name": "Item 6",
-    "description": "Description 6",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User F"
-  },
-  {
-    "color": "#e91e63",
-    "name": "Item 7",
-    "description": "Description 7",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User G"
-  },
-  {
-    "color": "#00bcd4",
-    "name": "Item 8",
-    "description": "Description 8",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User H"
-  },
-  {
-    "color": "#ff4081",
-    "name": "Item 9",
-    "description": "Description 9",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User I"
-  },
-  {
-    "color": "#cddc39",
-    "name": "Item 10",
-    "description": "Description 10",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User J"
-  },
-  {
-    "color": "#795548",
-    "name": "Item 11",
-    "description": "Description 11",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User K"
-  },
-  {
-    "color": "#009688",
-    "name": "Item 12",
-    "description": "Description 12",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User L"
-  },
-  {
-    "color": "#3f51b5",
-    "name": "Item 13",
-    "description": "Description 13",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User M"
-  },
-  {
-    "color": "#8bc34a",
-    "name": "Item 14",
-    "description": "Description 14",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User N"
-  },
-  {
-    "color": "#f44336",
-    "name": "Item 15",
-    "description": "Description 15",
-    "createdDate": "2023-10-01",
-    "updatedDate": "2023-10-01",
-    "createdBy": "User O"
   }
 ]

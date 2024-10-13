@@ -1,0 +1,63 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1;
+  margin-bottom: 15px;
+}
+
+.form-group:not(:last-child) {
+  margin-right: 15px; /* Add space between color and name inputs */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0e4f6e;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 80px; /* Set height for the description field */
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-button,
+.confirm-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #f2f6f9;
+  color: #0e4f6e;
+}
+
+.confirm-button {
+  background-color: rgb(76, 175, 80);
+  color: white;
+}

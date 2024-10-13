@@ -40,6 +40,6 @@ export const itemReducer = createReducer(
   })),
   on(editItem, (state, { item }) => ({
     ...state,
-    items: state.items.map((i) => (i.name === item.name ? item : i)),
+    items: state.items.map((i) => (i.id === item.id ? item : i)),
   }))
 );

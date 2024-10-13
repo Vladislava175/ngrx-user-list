@@ -1,1 +1,15 @@
-<app-item-list></app-item-list>
+<app-header [(sidebarVisible)]="sidebarVisible"></app-header>
+<app-item-list
+  [error$]="error$"
+  [items$]="items$"
+  [loading$]="loading$"
+  (selectedItemChange)="updateValue($event)"
+></app-item-list>
+<p-sidebar [(visible)]="sidebarVisible" position="right">
+  <app-item-form
+    [(item)]="updatedValue"
+    [(label)]="label"
+    (itemChange)="addValue($event)"
+    (visibilityChange)="visibilityChange($event)"
+  ></app-item-form>
+</p-sidebar>
