@@ -15,3 +15,7 @@ export const editItem = createAction(
   '[Item] Edit Item',
   props<{ item: Item }>()
 );
+export const filterByName = createAction(
+  '[Item] Filter By Name',
+  props<{ name: string }>()
+);

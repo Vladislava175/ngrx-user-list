@@ -1,28 +1,16 @@
 import { AsyncPipe, JsonPipe, NgFor, NgIf, NgStyle } from '@angular/common';
-import {
-  Component,
-  EventEmitter,
-  inject,
-  Input,
-  OnInit,
-  Output,
-} from '@angular/core';
+import { Component, EventEmitter, inject, Input, Output } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { Item } from '../../models/item.model';
-import { editItem, loadItems } from '../../store/item.actions';
-import {
-  selectError,
-  selectItems,
-  selectItemState,
-  selectLoading,
-} from '../../store/item.selectors';
+import { filterByName, loadItems } from '../../store/item.actions';
 import { AppState } from '../../store/store';
 // primeng
 import { ButtonModule } from 'primeng/button';
 import { IconFieldModule } from 'primeng/iconfield';
 import { InputIconModule } from 'primeng/inputicon';
 import { TableModule } from 'primeng/table';
+import { selectFilteredItems } from '../../store/item.selectors';
 @Component({
   selector: 'app-item-list',
   standalone: true,
@@ -46,22 +34,20 @@ export class ItemListComponent {
   @Input() error$!: Observable<string | null>;
   @Input() selectedItem!: Item;
   @Output() selectedItemChange = new EventEmitter<Item>();
-  
+
   store: Store<AppState> = inject(Store<AppState>);
   /**
    *
    */
   constructor() {}
 
-
   loadItems() {
     this.store.dispatch(loadItems());
   }
-  check() {
-    this.items$.subscribe((items) => console.log('items', items));
-  }
-  complete(item: Item) {
-    item.updatedDate = new Date().toDateString();
-    this.store.dispatch(editItem({ item: item }));
+  filterGlobal(event: any) {
+    console.log('event', event);
+    const filterValue = event.target.value;
+    this.store.dispatch(filterByName({ name: filterValue }));
+    this.items$ = this.store.select(selectFilteredItems);
   }
 }

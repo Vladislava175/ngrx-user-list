@@ -15,3 +15,7 @@ export const selectError = createSelector(
   selectItemState,
   (state: ItemState) => state?.error || null
 );
+export const selectFilteredItems = createSelector(
+    selectItemState,
+    (state: ItemState) => state?.filteredItems || []
+  );
